@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Gilroy";
+}
+
+html , body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    height: 100%;
+    background-color: white;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    
+    padding-top: 20px;
+    width: 100%;
+    height: 5%;
+    justify-content: space-between;
+    
+}
+
+.side {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 2.5vmax;
+}
+
+.navInn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 30%;
+    font-size: 1.5vmax;
+}
+
+#Home {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-bottom: 2px solid black;
+}
+
+#Projects{
+    display: flex;
+    align-items: center;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 95%;
+}
+
+#hardik {
+    font-size: 5vmax;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 20px;
+    
+    padding-left: 0;
+}
+
+.description {
+    margin-bottom: 20px;
+}
+
+#Read {
+    width: 3vmax;
+    padding-bottom: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-bottom: 2px solid black;
+    
+}
+
+.right {
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    height: 100%;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    width: 100%;
+}
+
+.topLeft {
+    width: 55%;
+    height: 100%;
+    background-color: #ff7d93;
+    background-image: url(Illus-removebg-preview.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.topRight {
+    width: 45%;
+    height: 100%;
+    background-color: rgb(255, 174, 23);
+    background-image: url(Photo\ cropped.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.bottom {
+    height: 50%;
+    width: 100%;
+    background-color: #008cff;
+    background-image: url(WBDev.png);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.side:hover {
+    cursor: pointer;
+}
+
+#Home:hover {
+    cursor: pointer;
+}
+
+#Projects:hover {
+    cursor: pointer;
+}
+
+#Read:hover {
+    cursor: pointer;
+}
+
+
+
+@media (max-width: 600px){
+
+    .container{
+        flex-direction: column;
+        height: 200vh;
+    }
+    .left{
+        height: 100vh;
+        width: 100%;
+    }
+
+    .right {
+        height: 100vh;
+        width: 100%;
+    }
+
+    #Home {
+        font-size: 2.5vmax;
+        
+    }
+
+    #Projects {
+        font-size: 2.5vmax;
+    }
+
+    .side {
+        font-size: 4vmax;
+    }
+
+    #Read {
+        width: 6vmax;
+    }
+
+
+    #techStack {
+        font-size: 5vmax;
+    }
+
+    .logo {
+        max-width: 20vmax;
+    }
+}
+
+.logo {
+    
+    max-width: 15vmax;
+}
+
+
+
+#techStack {
+    
+    font-size: 3vmax;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
